@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   $("#tweet").on("click", function() {
-
+    window.open("https://twitter.com/intent/tweet?text=" + quote);
   });
 
   function randomColor() {
