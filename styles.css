@@ -36,3 +36,9 @@ body {
   font-size: 32px;
   border-radius: 50%;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+} /* End small devices */
+
