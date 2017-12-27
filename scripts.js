@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   function getQuote() {
     $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?", function(a) {
-
+      $("#content").html(a[0].content + "<p>- " + a[0].title + "</p>");
     });
   }
 });
