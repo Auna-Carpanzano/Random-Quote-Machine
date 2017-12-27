@@ -44,5 +44,9 @@ body {
   width: 500px;
 }
 
+#content {
+  font-size: 22px;
+}
+
 } /* End small devices */
 
