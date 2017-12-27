@@ -9,4 +9,5 @@ body {
 #container {
   width: 80%;
   height: 300px;
+  background-color: white;
 }
