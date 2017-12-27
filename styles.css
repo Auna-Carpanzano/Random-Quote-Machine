@@ -40,5 +40,9 @@ body {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+#container {
+  width: 500px;
+}
+
 } /* End small devices */
 
