@@ -23,3 +23,8 @@ body {
   overflow: auto;
   font-size: 18px;
 }
+
+#buttons {
+  margin: 0 auto;
+  text-align: center;
+}
