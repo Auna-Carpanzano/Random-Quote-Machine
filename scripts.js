@@ -6,6 +6,10 @@ $(document).ready(function() {
     getQuote();
   });
 
+  $("#tweet").on("click", function() {
+
+  });
+
   function randomColor() {
     var r = Math.floor(Math.random() * 256);
     var g = Math.floor(Math.random() * 256);
