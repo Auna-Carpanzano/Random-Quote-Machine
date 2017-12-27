@@ -5,3 +5,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: royalblue;
 }
+
+#container {
+  width: 80%;
+  height: 300px;
+}
