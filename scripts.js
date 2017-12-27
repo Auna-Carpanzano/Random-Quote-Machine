@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#newQuote").on("click", function() {
     $("body").css("background-color", randomColor);
+    getQuote();
   });
 
   function randomColor() {
