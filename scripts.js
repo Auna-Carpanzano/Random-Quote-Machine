@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   function getQuote() {
     $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?", function(a) {
-      $("#content").html(a[0].content + "<p>- " + a[0].title + "</p>");
+      $("#content").html("<i class='fa fa-quote-left'></i>" + a[0].content + "<i class='fa fa-quote-right'></i>" + "<p>- " + a[0].title + "</p>");
       quote = $("#content").text();
     });
   }
