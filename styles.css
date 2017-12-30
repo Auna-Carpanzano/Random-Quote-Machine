@@ -37,6 +37,11 @@ body {
   border-radius: 50%;
 }
 
+.fa-quote-left {
+  float: left;
+  padding-right: 10px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
