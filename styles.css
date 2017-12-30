@@ -42,6 +42,13 @@ body {
   padding-right: 10px;
 }
 
+.fa-quote-right {
+  float: right;
+  position: relative;
+  bottom: 35px;
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
